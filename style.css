@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+/* Home-Page */
+
+#home-page {
+    height: 750px;
+    background-image: url(images/bg.png);
+    background-size: 100%;
+    text-align: left;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 7% 7%;
+}
+
+
+
+/* Navbar */
+
+.navbar {
+    width: auto;
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.nav-item {
+    margin: 0 0 0 9px;
+    padding: 0 14px;
+}
+
+.d-flex {
+    margin: 0;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: white;
+}
+
+.big-heading {
+    font-weight: bold;
+    font-size: 2.3rem;
+    line-height: 1;
+}
+
+.home-p {
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+
+#features {
+    height: 800px;
+    /* background-color: aqua; */
+}
+
+.features-big-heading {
+    font-weight: bold;
+    font-size: 2.3rem;
+    line-height: 1;
+    padding: 3% 28%;
+    color: gray;
+}
+
+.features-span {
+    font-weight: bold;
+    font-size: 2.3rem;
+    line-height: 1;
+    color: #9db3d0 !important;
+}
+
+.features-p {
+    width: 445px;
+    margin: 47px auto 66px;
+}
+
+
+.features-text {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.features-card-heading {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.featuers-icon {
+    margin: 20px 10px;
+    font-size: 3rem;
+    color: #b099d9 !important;
+}
+
+.features-row {
+    padding: 0% 8%;
+}
+
+.card-color {
+    background-color: #f2f2f2;
+    border-radius: 6%;
+}
+
+.card-color2 {
+    background-color: #ded4f0;
+    border-radius: 6%;
+}
+
+
+/* About Section */
+
+
+
+.title-heading {
+    font-size: 2.2rem;
+    font-weight: bold;
+    position: relative;
+    top: 76px;
+}
+
+.container {
+    height: 300px;
+    width: 918px;
+    background-color: #ded4f0;
+    position: relative;
+    top: 156px;
+}
+
+.container-box {
+    height: 300px;
+    background-color: #ded4f0;
+    padding: 2% 3%;
+}
+
+.container-box h3 {
+    margin: 27px;
+}
+
+.container-6-text {
+    height: 660px;
+    background-color: white;
+    position: relative;
+    top: 260px;
+    padding: 0% 15%;
+}
+
+.text-container {
+    height: 193px;
+    text-align: left;
+    padding: 2% 20px;
+    font-size: 1.1rem;
+}
+
+.text-container h3 {
+    display: inline;
+}
+
+.text-container p {
+    margin-left: 50px;
+    position: relative;
+    bottom: 34px;
+}
+
+.text-1-6 {
+    background-color: #f6f4fb;
+}
+
+.profile2card {
+    height: 900px;
+    background-color: #ded4f0;
+}
+
+.body_card {
+    position: relative;
+    top: 300px;  
+    border-radius: 40px;  
+}
+
+.profile2card img {
+    margin-top: 9px;
+}
+
+.profile2card p {
+    font-size: 1.2rem;
+}
+
+.profile2card span {
+    display: inline-block;
+    color: #b099d9 !important;
+    margin-bottom: 25px;
+}
+
+.profile-row {
+    padding: 0% 21%;
+}
+
+.profile_p {
+    font-size: 1.4rem;
+    padding: 44px;
+    margin: auto;
+}
+
+.card_down {
+    position: relative;
+    top: 130px;
+}
+
+.profile-3row {
+    padding: 3% 7%;
+}
+
+.body_3_card {
+    border-radius: 38px;
+    height: 562px;
+}
+
+.body_3-2_card {
+    border-radius: 38px;
+    background-color: #b099d9;
+    color: white;
+    height: 562px;
+}
+
+.profile-3row img {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 240px;
+    border-radius: 20%;
+}
+
+.para_3_card {
+    padding: 0 20px 0 20px;
+}
+
+.card_icon {
+    width: 30px;
+    height: 26px;
+    padding: 2px;
+}
+
+
+#services {
+    height: 700px;
+    color: #111111;
+    background-color: #ded4f0;
+    
+}
+
+#services p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 4% 28%;
+    line-height: 1;
+}
+
+.accordion_info {
+    padding: 0% 24%;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff !important;
+    background-color: #b099d9 !important;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
+}
+
+
+#contact {
+    height: 580px;
+    color: #111111;
+    background-color: #f6f4fb;
+}
+
+#contact input {
+    position: relative;
+    right: 52px;
+    top: 31px;
+    width: 626px;
+    background: linear-gradient(#000, #000) left bottom /calc(100% - 1px) 2px no-repeat;
+    /* background-color: #fcfcfc; */
+    border: 2px solid;
+    border-style: solid;
+    padding: 6px;
+    margin-top: 39px;
+}
+
+.input_control {
+    position: relative;
+    top: 68px;
+    width: 626px;
+    background: linear-gradient(#000, #000) left bottom /calc(100% - 1px) 2px no-repeat;
+    padding: 6px;
+}
+
+.button {
+    width: 108px;
+    font-size: 20px;
+    border: 2px solid;
+    position: relative;
+    top: 83px;
+    color: white;
+    background-color: #9b7ecf !important;
+}
+
+.form_container {
+    text-align: left;
+    padding: 5% 8%;
+}
+
+.contact-container {
+    height: 459px;
+    width: 420px;
+    background-color: white;
+    float: right;
+    position: relative;
+    right: 113px;
+    bottom: 336px;
+    border-radius: 40px;
+    text-align: left;
+    padding: 82px 32px 23px 32px;
+    line-height: 1.7;
+}
+
+.footer {
+    height: 264px;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 4% 31%;
+}
+    
+
+ 
